@@ -3,118 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>CREARE × J&K PRIVATE BENEFITS</title>
+  <title>CREARE × J&K</title>
 
   <style>
     * {
       box-sizing: border-box;
     }
 
-    body {
+    html, body {
       margin: 0;
-      background: #f5f1e8;
+      padding: 0;
+      background: #f8f6f2;
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "Apple SD Gothic Neo", "Noto Sans KR",
+                   Arial, sans-serif;
       color: #171717;
-      font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Apple SD Gothic Neo",
-        "Noto Sans KR",
-        Arial,
-        sans-serif;
     }
 
-    .page {
+    .wrap {
       width: 100%;
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+
+    .benefit-image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .store-info {
       max-width: 520px;
       margin: 0 auto;
-      padding: 54px 26px 42px;
+      padding: 38px 24px 45px;
       text-align: center;
-    }
-
-    .brand {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 13px;
-      letter-spacing: 3px;
-      margin-bottom: 34px;
-    }
-
-    .title {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 33px;
-      font-weight: 400;
-      line-height: 1.12;
-      letter-spacing: 1.5px;
-      margin: 0;
-    }
-
-    .gold-line {
-      width: 38px;
-      height: 1px;
-      background: #a68a5b;
-      margin: 28px auto;
-    }
-
-    .headline {
-      font-size: 20px;
-      line-height: 1.6;
-      font-weight: 500;
-      margin: 0 0 14px;
-    }
-
-    .description {
-      font-size: 14px;
-      line-height: 1.8;
-      color: #555;
-      margin-bottom: 42px;
-    }
-
-    .benefit {
-      padding: 27px 0;
-      border-top: 1px solid rgba(0,0,0,.13);
-    }
-
-    .benefit:last-of-type {
-      border-bottom: 1px solid rgba(0,0,0,.13);
-    }
-
-    .number {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 13px;
-      letter-spacing: 2px;
-      color: #9a7a48;
-      margin-bottom: 10px;
-    }
-
-    .benefit-title {
-      font-size: 21px;
-      font-weight: 600;
-      letter-spacing: -0.4px;
-    }
-
-    .payback {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 25px;
-      letter-spacing: 0.5px;
-      margin-top: 3px;
-    }
-
-    .notice {
-      margin: 28px auto 52px;
-      max-width: 390px;
-      font-size: 12px;
-      line-height: 1.8;
-      color: #777;
-    }
-
-    .store {
-      padding-top: 35px;
-      border-top: 1px solid rgba(0,0,0,.18);
     }
 
     .store-name {
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 17px;
+      font-size: 16px;
       letter-spacing: 2px;
       margin-bottom: 15px;
     }
@@ -134,20 +61,18 @@
 
     .button {
       flex: 1;
+      height: 52px;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 52px;
-      border: 1px solid #222;
       text-decoration: none;
       font-size: 14px;
-      letter-spacing: -0.2px;
-      transition: .2s;
+      border: 1px solid #222;
     }
 
     .phone {
       background: #171717;
-      color: #fff;
+      color: white;
     }
 
     .map {
@@ -155,77 +80,33 @@
       color: #171717;
     }
 
-    .button:active {
-      opacity: .7;
-    }
-
     .footer {
-      margin-top: 38px;
+      margin-top: 30px;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 10px;
-      letter-spacing: 2px;
+      font-size: 9px;
+      letter-spacing: 1.5px;
       color: #999;
-    }
-
-    @media (max-width: 380px) {
-      .page {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-
-      .title {
-        font-size: 29px;
-      }
-
-      .headline {
-        font-size: 18px;
-      }
     }
   </style>
 </head>
 
 <body>
 
-  <main class="page">
+  <div class="wrap">
 
-    <div class="brand">CREARE × J&amp;K</div>
+    <!-- 기존 디자인 이미지 그대로 -->
+    <img
+      src="jk-benefits.png"
+      alt="CREARE × J&K Private Benefits"
+      class="benefit-image"
+    >
 
-    <h1 class="title">
-      PRIVATE BENEFITS<br>
-      UNLOCKED
-    </h1>
+    <!-- 이미지 아래 매장 정보 -->
+    <div class="store-info">
 
-    <div class="gold-line"></div>
-
-    <p class="headline">
-      J&amp;K에서 시작된 스타일을<br>
-      CREARE에서 완성하세요.
-    </p>
-
-    <p class="description">
-      J&amp;K 고객님께서 CREARE에서<br>
-      수트를 주문하시면 특별한 혜택을 제공합니다.
-    </p>
-
-    <section class="benefit">
-      <div class="number">01</div>
-      <div class="benefit-title">맞춤셔츠 1벌 제공</div>
-    </section>
-
-    <section class="benefit">
-      <div class="number">02</div>
-      <div class="benefit-title">J&amp;K 커트비</div>
-      <div class="payback">33,000원 PAYBACK</div>
-    </section>
-
-    <p class="notice">
-      J&amp;K 바버샵에서는 정상가로 결제되며,<br>
-      페이백 및 셔츠 혜택은 CREARE에서 제공합니다.
-    </p>
-
-    <section class="store">
-
-      <div class="store-name">CREARE TAILOR SHOP</div>
+      <div class="store-name">
+        CREARE TAILOR SHOP
+      </div>
 
       <div class="address">
         경기 남양주시 다산중앙로82번안길 162<br>
@@ -234,27 +115,29 @@
 
       <div class="buttons">
 
-        <a class="button phone"
-           href="tel:01046438175">
+        <a
+          href="tel:01046438175"
+          class="button phone">
           전화 문의
         </a>
 
-        <a class="button map"
-           href="https://naver.me/FJO0sC7d"
-           target="_blank"
-           rel="noopener noreferrer">
+        <a
+          href="https://naver.me/FJO0sC7d"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button map">
           네이버지도
         </a>
 
       </div>
 
-    </section>
+      <div class="footer">
+        FOR THOSE WHO APPRECIATE WELL-MADE TAILORING.
+      </div>
 
-    <div class="footer">
-      FOR THOSE WHO APPRECIATE WELL-MADE TAILORING.
     </div>
 
-  </main>
+  </div>
 
 </body>
 </html>
